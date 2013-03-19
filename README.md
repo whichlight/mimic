@@ -36,3 +36,16 @@ This should launch an app that lets you display your webcam with a number of dif
 SPI
 -----
 This blog post has some information about enabling SPI on RPI - http://www.brianhensley.net/2012/07/getting-spi-working-on-raspberry-pi.html
+
+USAGE
+-----
+Hook up the raspberry pi to the LED strip as seen in http://olearn.adafruit.com/assets/1589
+Connect the webcam.  Run
+
+	sudo python mimic.py
+
+If you want to log the colors over time
+
+	sudo python mimic.py -d True
+
+The colors will be printed out with the timestamp and RGB values, all tab separated. 
