@@ -49,3 +49,6 @@ If you want to log the colors over time
 	sudo python mimic.py -d True
 
 The colors will be printed out with the timestamp and RGB values, all tab separated. 
+
+To record the logs, you can use the bash script, 'run_mimic.sh'.  Create a directory called 'data' first.
+Since I'm running this on startup, make sure you edit the file paths.
