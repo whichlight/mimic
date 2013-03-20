@@ -39,7 +39,7 @@ This blog post has some information about enabling SPI on RPI - http://www.brian
 
 USAGE
 -----
-Hook up the raspberry pi to the LED strip as seen in http://olearn.adafruit.com/assets/1589
+Hook up the raspberry pi to the LED strip as seen in http://learn.adafruit.com/light-painting-with-raspberry-pi/hardware
 Connect the webcam.  Run
 
 	sudo python mimic.py
