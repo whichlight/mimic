@@ -27,6 +27,3 @@ while True:
 			[datetime.datetime.now(),
 			red,green,blue]))
 	
-	
-	
-	
